@@ -49,7 +49,7 @@ namespace CefSharp
                 _browserControl = nullptr;
                 _managedCefBrowserAdapter = nullptr;
                 _browserHwnd = nullptr;
-                _cefBrowser = nullptr;
+                //_cefBrowser = nullptr;
                 _tooltip = nullptr;
             }
 

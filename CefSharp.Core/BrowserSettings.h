@@ -250,14 +250,18 @@ namespace CefSharp
 
         property String^ UserStyleSheetLocation
         {
-            String^ get() { return StringUtils::ToClr(_browserSettings->user_style_sheet_location); }
-            void set(String^ value) { StringUtils::AssignNativeFromClr(_browserSettings->user_style_sheet_location, value); }
+            //String^ get() { return StringUtils::ToClr(_browserSettings->user_style_sheet_location); }
+            //void set(String^ value) { StringUtils::AssignNativeFromClr(_browserSettings->user_style_sheet_location, value); }
+			String^ get() { return String::Empty; }
+			void set(String^ value) { }
         }
 
         property Nullable<bool>^ AuthorAndUserStylesDisabled
         {
-            Nullable<bool>^ get() { return CefStateToDisabledSetting(_browserSettings->author_and_user_styles); }
-            void set(Nullable<bool>^ value) { _browserSettings->author_and_user_styles = CefStateFromDisabledSetting(value); }
+            //Nullable<bool>^ get() { return CefStateToDisabledSetting(_browserSettings->author_and_user_styles); }
+            //void set(Nullable<bool>^ value) { _browserSettings->author_and_user_styles = CefStateFromDisabledSetting(value); }
+			Nullable<bool>^ get() { return Nullable<bool>(); }
+			void set(Nullable<bool>^ value) { }
         }
 
         property Nullable<bool>^ LocalStorageDisabled
@@ -286,8 +290,10 @@ namespace CefSharp
 
         property Nullable<bool>^ AcceleratedCompositingDisabled
         {
-            Nullable<bool>^ get() { return CefStateToDisabledSetting(_browserSettings->accelerated_compositing); }
-            void set(Nullable<bool>^ value) { _browserSettings->accelerated_compositing = CefStateFromDisabledSetting(value); }
+			//Nullable<bool>^ get() { return CefStateToDisabledSetting(_browserSettings->accelerated_compositing); }
+			//void set(Nullable<bool>^ value) { _browserSettings->accelerated_compositing = CefStateFromDisabledSetting(value); }
+			Nullable<bool>^ get() { return Nullable<bool>(); }
+			void set(Nullable<bool>^ value) { }
         }
     };
 }

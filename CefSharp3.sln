@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.Test", "CefSharp.Test\CefSharp.Test.csproj", "{7A4D5447-183B-4A11-8E63-9848991B46FF}"
 EndProject
@@ -46,6 +46,226 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CefSharp.Core", "CefSharp.Core\CefSharp.Core.vcxproj", "{7B495581-2271-4F41-9476-ACB86E8C864F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp", "CefSharp\CefSharp.csproj", "{A55848CC-10E7-40CB-ADDB-04740B16DD43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{6913DAF3-2DD8-4D1A-8FC4-D335FF8EEED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cef2062", "Cef2062", "{1A5DF949-A109-4CC7-A1AD-DB1A82DD468D}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\cef.pak = Lib\Cef2062\cef.pak
+		Lib\Cef2062\cef_100_percent.pak = Lib\Cef2062\cef_100_percent.pak
+		Lib\Cef2062\cef_200_percent.pak = Lib\Cef2062\cef_200_percent.pak
+		Lib\Cef2062\devtools_resources.pak = Lib\Cef2062\devtools_resources.pak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{523FF868-AB04-44BA-AA42-62FB104AFC51}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\x64\d3dcompiler_43.dll = Lib\Cef2062\x64\d3dcompiler_43.dll
+		Lib\Cef2062\x64\d3dcompiler_46.dll = Lib\Cef2062\x64\d3dcompiler_46.dll
+		Lib\Cef2062\x64\ffmpegsumo.dll = Lib\Cef2062\x64\ffmpegsumo.dll
+		Lib\Cef2062\x64\icudtl.dat = Lib\Cef2062\x64\icudtl.dat
+		Lib\Cef2062\x64\libcef.dll = Lib\Cef2062\x64\libcef.dll
+		Lib\Cef2062\x64\libcef.lib = Lib\Cef2062\x64\libcef.lib
+		Lib\Cef2062\x64\libcef_dll_wrapper.lib = Lib\Cef2062\x64\libcef_dll_wrapper.lib
+		Lib\Cef2062\x64\libEGL.dll = Lib\Cef2062\x64\libEGL.dll
+		Lib\Cef2062\x64\libGLESv2.dll = Lib\Cef2062\x64\libGLESv2.dll
+		Lib\Cef2062\x64\pdf.dll = Lib\Cef2062\x64\pdf.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{BD0FBF03-08E7-406E-848A-631CBC7C9C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{8391214C-EC33-4F6E-95F2-88E9301DAFC1}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\cef_auth_callback.h = Lib\Cef2062\include\cef_auth_callback.h
+		Lib\Cef2062\include\cef_base.h = Lib\Cef2062\include\cef_base.h
+		Lib\Cef2062\include\cef_browser.h = Lib\Cef2062\include\cef_browser.h
+		Lib\Cef2062\include\cef_browser_process_handler.h = Lib\Cef2062\include\cef_browser_process_handler.h
+		Lib\Cef2062\include\cef_callback.h = Lib\Cef2062\include\cef_callback.h
+		Lib\Cef2062\include\cef_client.h = Lib\Cef2062\include\cef_client.h
+		Lib\Cef2062\include\cef_command_line.h = Lib\Cef2062\include\cef_command_line.h
+		Lib\Cef2062\include\cef_context_menu_handler.h = Lib\Cef2062\include\cef_context_menu_handler.h
+		Lib\Cef2062\include\cef_cookie.h = Lib\Cef2062\include\cef_cookie.h
+		Lib\Cef2062\include\cef_dialog_handler.h = Lib\Cef2062\include\cef_dialog_handler.h
+		Lib\Cef2062\include\cef_display_handler.h = Lib\Cef2062\include\cef_display_handler.h
+		Lib\Cef2062\include\cef_dom.h = Lib\Cef2062\include\cef_dom.h
+		Lib\Cef2062\include\cef_download_handler.h = Lib\Cef2062\include\cef_download_handler.h
+		Lib\Cef2062\include\cef_download_item.h = Lib\Cef2062\include\cef_download_item.h
+		Lib\Cef2062\include\cef_drag_data.h = Lib\Cef2062\include\cef_drag_data.h
+		Lib\Cef2062\include\cef_drag_handler.h = Lib\Cef2062\include\cef_drag_handler.h
+		Lib\Cef2062\include\cef_focus_handler.h = Lib\Cef2062\include\cef_focus_handler.h
+		Lib\Cef2062\include\cef_frame.h = Lib\Cef2062\include\cef_frame.h
+		Lib\Cef2062\include\cef_geolocation.h = Lib\Cef2062\include\cef_geolocation.h
+		Lib\Cef2062\include\cef_geolocation_handler.h = Lib\Cef2062\include\cef_geolocation_handler.h
+		Lib\Cef2062\include\cef_jsdialog_handler.h = Lib\Cef2062\include\cef_jsdialog_handler.h
+		Lib\Cef2062\include\cef_keyboard_handler.h = Lib\Cef2062\include\cef_keyboard_handler.h
+		Lib\Cef2062\include\cef_life_span_handler.h = Lib\Cef2062\include\cef_life_span_handler.h
+		Lib\Cef2062\include\cef_load_handler.h = Lib\Cef2062\include\cef_load_handler.h
+		Lib\Cef2062\include\cef_menu_model.h = Lib\Cef2062\include\cef_menu_model.h
+		Lib\Cef2062\include\cef_origin_whitelist.h = Lib\Cef2062\include\cef_origin_whitelist.h
+		Lib\Cef2062\include\cef_pack_resources.h = Lib\Cef2062\include\cef_pack_resources.h
+		Lib\Cef2062\include\cef_pack_strings.h = Lib\Cef2062\include\cef_pack_strings.h
+		Lib\Cef2062\include\cef_path_util.h = Lib\Cef2062\include\cef_path_util.h
+		Lib\Cef2062\include\cef_print_handler.h = Lib\Cef2062\include\cef_print_handler.h
+		Lib\Cef2062\include\cef_print_settings.h = Lib\Cef2062\include\cef_print_settings.h
+		Lib\Cef2062\include\cef_process_message.h = Lib\Cef2062\include\cef_process_message.h
+		Lib\Cef2062\include\cef_process_util.h = Lib\Cef2062\include\cef_process_util.h
+		Lib\Cef2062\include\cef_render_handler.h = Lib\Cef2062\include\cef_render_handler.h
+		Lib\Cef2062\include\cef_render_process_handler.h = Lib\Cef2062\include\cef_render_process_handler.h
+		Lib\Cef2062\include\cef_request.h = Lib\Cef2062\include\cef_request.h
+		Lib\Cef2062\include\cef_request_context.h = Lib\Cef2062\include\cef_request_context.h
+		Lib\Cef2062\include\cef_request_context_handler.h = Lib\Cef2062\include\cef_request_context_handler.h
+		Lib\Cef2062\include\cef_request_handler.h = Lib\Cef2062\include\cef_request_handler.h
+		Lib\Cef2062\include\cef_resource_bundle_handler.h = Lib\Cef2062\include\cef_resource_bundle_handler.h
+		Lib\Cef2062\include\cef_resource_handler.h = Lib\Cef2062\include\cef_resource_handler.h
+		Lib\Cef2062\include\cef_response.h = Lib\Cef2062\include\cef_response.h
+		Lib\Cef2062\include\cef_runnable.h = Lib\Cef2062\include\cef_runnable.h
+		Lib\Cef2062\include\cef_sandbox_win.h = Lib\Cef2062\include\cef_sandbox_win.h
+		Lib\Cef2062\include\cef_scheme.h = Lib\Cef2062\include\cef_scheme.h
+		Lib\Cef2062\include\cef_stream.h = Lib\Cef2062\include\cef_stream.h
+		Lib\Cef2062\include\cef_string_visitor.h = Lib\Cef2062\include\cef_string_visitor.h
+		Lib\Cef2062\include\cef_task.h = Lib\Cef2062\include\cef_task.h
+		Lib\Cef2062\include\cef_trace.h = Lib\Cef2062\include\cef_trace.h
+		Lib\Cef2062\include\cef_url.h = Lib\Cef2062\include\cef_url.h
+		Lib\Cef2062\include\cef_urlrequest.h = Lib\Cef2062\include\cef_urlrequest.h
+		Lib\Cef2062\include\cef_v8.h = Lib\Cef2062\include\cef_v8.h
+		Lib\Cef2062\include\cef_values.h = Lib\Cef2062\include\cef_values.h
+		Lib\Cef2062\include\cef_version.h = Lib\Cef2062\include\cef_version.h
+		Lib\Cef2062\include\cef_web_plugin.h = Lib\Cef2062\include\cef_web_plugin.h
+		Lib\Cef2062\include\cef_xml_reader.h = Lib\Cef2062\include\cef_xml_reader.h
+		Lib\Cef2062\include\cef_zip_reader.h = Lib\Cef2062\include\cef_zip_reader.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "locales", "locales", "{CEA7A2C2-30E5-445A-89EA-557CFE293ABC}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\locales\en-US.pak = Lib\Cef2062\locales\en-US.pak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "base", "base", "{D55554D5-CE6C-4625-BA36-3FB8EAB4910A}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\base\cef_atomic_ref_count.h = Lib\Cef2062\include\base\cef_atomic_ref_count.h
+		Lib\Cef2062\include\base\cef_atomicops.h = Lib\Cef2062\include\base\cef_atomicops.h
+		Lib\Cef2062\include\base\cef_basictypes.h = Lib\Cef2062\include\base\cef_basictypes.h
+		Lib\Cef2062\include\base\cef_bind.h = Lib\Cef2062\include\base\cef_bind.h
+		Lib\Cef2062\include\base\cef_bind_helpers.h = Lib\Cef2062\include\base\cef_bind_helpers.h
+		Lib\Cef2062\include\base\cef_build.h = Lib\Cef2062\include\base\cef_build.h
+		Lib\Cef2062\include\base\cef_callback.h = Lib\Cef2062\include\base\cef_callback.h
+		Lib\Cef2062\include\base\cef_callback_forward.h = Lib\Cef2062\include\base\cef_callback_forward.h
+		Lib\Cef2062\include\base\cef_callback_helpers.h = Lib\Cef2062\include\base\cef_callback_helpers.h
+		Lib\Cef2062\include\base\cef_callback_list.h = Lib\Cef2062\include\base\cef_callback_list.h
+		Lib\Cef2062\include\base\cef_cancelable_callback.h = Lib\Cef2062\include\base\cef_cancelable_callback.h
+		Lib\Cef2062\include\base\cef_lock.h = Lib\Cef2062\include\base\cef_lock.h
+		Lib\Cef2062\include\base\cef_logging.h = Lib\Cef2062\include\base\cef_logging.h
+		Lib\Cef2062\include\base\cef_macros.h = Lib\Cef2062\include\base\cef_macros.h
+		Lib\Cef2062\include\base\cef_move.h = Lib\Cef2062\include\base\cef_move.h
+		Lib\Cef2062\include\base\cef_platform_thread.h = Lib\Cef2062\include\base\cef_platform_thread.h
+		Lib\Cef2062\include\base\cef_ref_counted.h = Lib\Cef2062\include\base\cef_ref_counted.h
+		Lib\Cef2062\include\base\cef_scoped_ptr.h = Lib\Cef2062\include\base\cef_scoped_ptr.h
+		Lib\Cef2062\include\base\cef_string16.h = Lib\Cef2062\include\base\cef_string16.h
+		Lib\Cef2062\include\base\cef_template_util.h = Lib\Cef2062\include\base\cef_template_util.h
+		Lib\Cef2062\include\base\cef_thread_checker.h = Lib\Cef2062\include\base\cef_thread_checker.h
+		Lib\Cef2062\include\base\cef_thread_collision_warner.h = Lib\Cef2062\include\base\cef_thread_collision_warner.h
+		Lib\Cef2062\include\base\cef_trace_event.h = Lib\Cef2062\include\base\cef_trace_event.h
+		Lib\Cef2062\include\base\cef_tuple.h = Lib\Cef2062\include\base\cef_tuple.h
+		Lib\Cef2062\include\base\cef_weak_ptr.h = Lib\Cef2062\include\base\cef_weak_ptr.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{D93FFC07-769A-4816-BFC2-897D1613554B}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\base\internal\cef_atomicops_x86_msvc.h = Lib\Cef2062\include\base\internal\cef_atomicops_x86_msvc.h
+		Lib\Cef2062\include\base\internal\cef_bind_internal.h = Lib\Cef2062\include\base\internal\cef_bind_internal.h
+		Lib\Cef2062\include\base\internal\cef_bind_internal_win.h = Lib\Cef2062\include\base\internal\cef_bind_internal_win.h
+		Lib\Cef2062\include\base\internal\cef_callback_internal.h = Lib\Cef2062\include\base\internal\cef_callback_internal.h
+		Lib\Cef2062\include\base\internal\cef_lock_impl.h = Lib\Cef2062\include\base\internal\cef_lock_impl.h
+		Lib\Cef2062\include\base\internal\cef_raw_scoped_refptr_mismatch_checker.h = Lib\Cef2062\include\base\internal\cef_raw_scoped_refptr_mismatch_checker.h
+		Lib\Cef2062\include\base\internal\cef_thread_checker_impl.h = Lib\Cef2062\include\base\internal\cef_thread_checker_impl.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "capi", "capi", "{ACF338A5-2E30-4D06-B394-65514A507411}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\capi\cef_app_capi.h = Lib\Cef2062\include\capi\cef_app_capi.h
+		Lib\Cef2062\include\capi\cef_auth_callback_capi.h = Lib\Cef2062\include\capi\cef_auth_callback_capi.h
+		Lib\Cef2062\include\capi\cef_base_capi.h = Lib\Cef2062\include\capi\cef_base_capi.h
+		Lib\Cef2062\include\capi\cef_browser_capi.h = Lib\Cef2062\include\capi\cef_browser_capi.h
+		Lib\Cef2062\include\capi\cef_browser_process_handler_capi.h = Lib\Cef2062\include\capi\cef_browser_process_handler_capi.h
+		Lib\Cef2062\include\capi\cef_callback_capi.h = Lib\Cef2062\include\capi\cef_callback_capi.h
+		Lib\Cef2062\include\capi\cef_client_capi.h = Lib\Cef2062\include\capi\cef_client_capi.h
+		Lib\Cef2062\include\capi\cef_command_line_capi.h = Lib\Cef2062\include\capi\cef_command_line_capi.h
+		Lib\Cef2062\include\capi\cef_context_menu_handler_capi.h = Lib\Cef2062\include\capi\cef_context_menu_handler_capi.h
+		Lib\Cef2062\include\capi\cef_cookie_capi.h = Lib\Cef2062\include\capi\cef_cookie_capi.h
+		Lib\Cef2062\include\capi\cef_dialog_handler_capi.h = Lib\Cef2062\include\capi\cef_dialog_handler_capi.h
+		Lib\Cef2062\include\capi\cef_display_handler_capi.h = Lib\Cef2062\include\capi\cef_display_handler_capi.h
+		Lib\Cef2062\include\capi\cef_dom_capi.h = Lib\Cef2062\include\capi\cef_dom_capi.h
+		Lib\Cef2062\include\capi\cef_download_handler_capi.h = Lib\Cef2062\include\capi\cef_download_handler_capi.h
+		Lib\Cef2062\include\capi\cef_download_item_capi.h = Lib\Cef2062\include\capi\cef_download_item_capi.h
+		Lib\Cef2062\include\capi\cef_drag_data_capi.h = Lib\Cef2062\include\capi\cef_drag_data_capi.h
+		Lib\Cef2062\include\capi\cef_drag_handler_capi.h = Lib\Cef2062\include\capi\cef_drag_handler_capi.h
+		Lib\Cef2062\include\capi\cef_focus_handler_capi.h = Lib\Cef2062\include\capi\cef_focus_handler_capi.h
+		Lib\Cef2062\include\capi\cef_frame_capi.h = Lib\Cef2062\include\capi\cef_frame_capi.h
+		Lib\Cef2062\include\capi\cef_geolocation_capi.h = Lib\Cef2062\include\capi\cef_geolocation_capi.h
+		Lib\Cef2062\include\capi\cef_geolocation_handler_capi.h = Lib\Cef2062\include\capi\cef_geolocation_handler_capi.h
+		Lib\Cef2062\include\capi\cef_jsdialog_handler_capi.h = Lib\Cef2062\include\capi\cef_jsdialog_handler_capi.h
+		Lib\Cef2062\include\capi\cef_keyboard_handler_capi.h = Lib\Cef2062\include\capi\cef_keyboard_handler_capi.h
+		Lib\Cef2062\include\capi\cef_life_span_handler_capi.h = Lib\Cef2062\include\capi\cef_life_span_handler_capi.h
+		Lib\Cef2062\include\capi\cef_load_handler_capi.h = Lib\Cef2062\include\capi\cef_load_handler_capi.h
+		Lib\Cef2062\include\capi\cef_menu_model_capi.h = Lib\Cef2062\include\capi\cef_menu_model_capi.h
+		Lib\Cef2062\include\capi\cef_origin_whitelist_capi.h = Lib\Cef2062\include\capi\cef_origin_whitelist_capi.h
+		Lib\Cef2062\include\capi\cef_path_util_capi.h = Lib\Cef2062\include\capi\cef_path_util_capi.h
+		Lib\Cef2062\include\capi\cef_print_handler_capi.h = Lib\Cef2062\include\capi\cef_print_handler_capi.h
+		Lib\Cef2062\include\capi\cef_print_settings_capi.h = Lib\Cef2062\include\capi\cef_print_settings_capi.h
+		Lib\Cef2062\include\capi\cef_process_message_capi.h = Lib\Cef2062\include\capi\cef_process_message_capi.h
+		Lib\Cef2062\include\capi\cef_process_util_capi.h = Lib\Cef2062\include\capi\cef_process_util_capi.h
+		Lib\Cef2062\include\capi\cef_render_handler_capi.h = Lib\Cef2062\include\capi\cef_render_handler_capi.h
+		Lib\Cef2062\include\capi\cef_render_process_handler_capi.h = Lib\Cef2062\include\capi\cef_render_process_handler_capi.h
+		Lib\Cef2062\include\capi\cef_request_capi.h = Lib\Cef2062\include\capi\cef_request_capi.h
+		Lib\Cef2062\include\capi\cef_request_context_capi.h = Lib\Cef2062\include\capi\cef_request_context_capi.h
+		Lib\Cef2062\include\capi\cef_request_context_handler_capi.h = Lib\Cef2062\include\capi\cef_request_context_handler_capi.h
+		Lib\Cef2062\include\capi\cef_request_handler_capi.h = Lib\Cef2062\include\capi\cef_request_handler_capi.h
+		Lib\Cef2062\include\capi\cef_resource_bundle_handler_capi.h = Lib\Cef2062\include\capi\cef_resource_bundle_handler_capi.h
+		Lib\Cef2062\include\capi\cef_resource_handler_capi.h = Lib\Cef2062\include\capi\cef_resource_handler_capi.h
+		Lib\Cef2062\include\capi\cef_response_capi.h = Lib\Cef2062\include\capi\cef_response_capi.h
+		Lib\Cef2062\include\capi\cef_scheme_capi.h = Lib\Cef2062\include\capi\cef_scheme_capi.h
+		Lib\Cef2062\include\capi\cef_stream_capi.h = Lib\Cef2062\include\capi\cef_stream_capi.h
+		Lib\Cef2062\include\capi\cef_string_visitor_capi.h = Lib\Cef2062\include\capi\cef_string_visitor_capi.h
+		Lib\Cef2062\include\capi\cef_task_capi.h = Lib\Cef2062\include\capi\cef_task_capi.h
+		Lib\Cef2062\include\capi\cef_trace_capi.h = Lib\Cef2062\include\capi\cef_trace_capi.h
+		Lib\Cef2062\include\capi\cef_url_capi.h = Lib\Cef2062\include\capi\cef_url_capi.h
+		Lib\Cef2062\include\capi\cef_urlrequest_capi.h = Lib\Cef2062\include\capi\cef_urlrequest_capi.h
+		Lib\Cef2062\include\capi\cef_v8_capi.h = Lib\Cef2062\include\capi\cef_v8_capi.h
+		Lib\Cef2062\include\capi\cef_values_capi.h = Lib\Cef2062\include\capi\cef_values_capi.h
+		Lib\Cef2062\include\capi\cef_web_plugin_capi.h = Lib\Cef2062\include\capi\cef_web_plugin_capi.h
+		Lib\Cef2062\include\capi\cef_xml_reader_capi.h = Lib\Cef2062\include\capi\cef_xml_reader_capi.h
+		Lib\Cef2062\include\capi\cef_zip_reader_capi.h = Lib\Cef2062\include\capi\cef_zip_reader_capi.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{8E2B8C5B-E23B-42AE-9FEF-89C709179E62}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\internal\cef_export.h = Lib\Cef2062\include\internal\cef_export.h
+		Lib\Cef2062\include\internal\cef_logging_internal.h = Lib\Cef2062\include\internal\cef_logging_internal.h
+		Lib\Cef2062\include\internal\cef_ptr.h = Lib\Cef2062\include\internal\cef_ptr.h
+		Lib\Cef2062\include\internal\cef_string.h = Lib\Cef2062\include\internal\cef_string.h
+		Lib\Cef2062\include\internal\cef_string_list.h = Lib\Cef2062\include\internal\cef_string_list.h
+		Lib\Cef2062\include\internal\cef_string_map.h = Lib\Cef2062\include\internal\cef_string_map.h
+		Lib\Cef2062\include\internal\cef_string_multimap.h = Lib\Cef2062\include\internal\cef_string_multimap.h
+		Lib\Cef2062\include\internal\cef_string_types.h = Lib\Cef2062\include\internal\cef_string_types.h
+		Lib\Cef2062\include\internal\cef_string_wrappers.h = Lib\Cef2062\include\internal\cef_string_wrappers.h
+		Lib\Cef2062\include\internal\cef_thread_internal.h = Lib\Cef2062\include\internal\cef_thread_internal.h
+		Lib\Cef2062\include\internal\cef_time.h = Lib\Cef2062\include\internal\cef_time.h
+		Lib\Cef2062\include\internal\cef_trace_event_internal.h = Lib\Cef2062\include\internal\cef_trace_event_internal.h
+		Lib\Cef2062\include\internal\cef_types.h = Lib\Cef2062\include\internal\cef_types.h
+		Lib\Cef2062\include\internal\cef_types_win.h = Lib\Cef2062\include\internal\cef_types_win.h
+		Lib\Cef2062\include\internal\cef_types_wrappers.h = Lib\Cef2062\include\internal\cef_types_wrappers.h
+		Lib\Cef2062\include\internal\cef_win.h = Lib\Cef2062\include\internal\cef_win.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapper", "wrapper", "{ABC71F86-A357-4AC2-B66B-FD90DAD05A7C}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Cef2062\include\wrapper\cef_byte_read_handler.h = Lib\Cef2062\include\wrapper\cef_byte_read_handler.h
+		Lib\Cef2062\include\wrapper\cef_closure_task.h = Lib\Cef2062\include\wrapper\cef_closure_task.h
+		Lib\Cef2062\include\wrapper\cef_helpers.h = Lib\Cef2062\include\wrapper\cef_helpers.h
+		Lib\Cef2062\include\wrapper\cef_message_router.h = Lib\Cef2062\include\wrapper\cef_message_router.h
+		Lib\Cef2062\include\wrapper\cef_stream_resource_handler.h = Lib\Cef2062\include\wrapper\cef_stream_resource_handler.h
+		Lib\Cef2062\include\wrapper\cef_xml_object.h = Lib\Cef2062\include\wrapper\cef_xml_object.h
+		Lib\Cef2062\include\wrapper\cef_zip_archive.h = Lib\Cef2062\include\wrapper\cef_zip_archive.h
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,5 +353,15 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A23AA466-1903-44F2-946D-25AD0500D56B} = {47D0DC8C-D707-4D8A-A578-7737AA9CE79B}
+		{1A5DF949-A109-4CC7-A1AD-DB1A82DD468D} = {6913DAF3-2DD8-4D1A-8FC4-D335FF8EEED8}
+		{523FF868-AB04-44BA-AA42-62FB104AFC51} = {1A5DF949-A109-4CC7-A1AD-DB1A82DD468D}
+		{BD0FBF03-08E7-406E-848A-631CBC7C9C8C} = {1A5DF949-A109-4CC7-A1AD-DB1A82DD468D}
+		{8391214C-EC33-4F6E-95F2-88E9301DAFC1} = {1A5DF949-A109-4CC7-A1AD-DB1A82DD468D}
+		{CEA7A2C2-30E5-445A-89EA-557CFE293ABC} = {1A5DF949-A109-4CC7-A1AD-DB1A82DD468D}
+		{D55554D5-CE6C-4625-BA36-3FB8EAB4910A} = {8391214C-EC33-4F6E-95F2-88E9301DAFC1}
+		{D93FFC07-769A-4816-BFC2-897D1613554B} = {D55554D5-CE6C-4625-BA36-3FB8EAB4910A}
+		{ACF338A5-2E30-4D06-B394-65514A507411} = {8391214C-EC33-4F6E-95F2-88E9301DAFC1}
+		{8E2B8C5B-E23B-42AE-9FEF-89C709179E62} = {8391214C-EC33-4F6E-95F2-88E9301DAFC1}
+		{ABC71F86-A357-4AC2-B66B-FD90DAD05A7C} = {8391214C-EC33-4F6E-95F2-88E9301DAFC1}
 	EndGlobalSection
 EndGlobal

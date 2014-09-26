@@ -155,7 +155,7 @@ namespace CefSharp
                 CefMainArgs main_args;
                 CefRefPtr<CefSharpApp> app(new CefSharpApp(cefSettings));
 
-                int exitCode = CefExecuteProcess(main_args, app.get());
+                int exitCode = CefExecuteProcess(main_args, app.get(), NULL);
 
                 if (exitCode >= 0)
                 {
@@ -164,7 +164,7 @@ namespace CefSharp
                     return false;
                 }
 
-                success = CefInitialize(main_args, *(cefSettings->_cefSettings), app.get());
+                success = CefInitialize(main_args, *(cefSettings->_cefSettings), app.get(), NULL);
                 app->CompleteSchemeRegistrations();
                 _initialized = success;
 
@@ -348,7 +348,7 @@ namespace CefSharp
 
             auto wrapper = new CompletionHandler(handler);
 
-            return manager->FlushStore(static_cast<CefRefPtr<CefCompletionHandler>>(wrapper));
+            return manager->FlushStore(static_cast<CefRefPtr<CefCompletionCallback>>(wrapper));
         }
 
         /// <summary>Shuts down CefSharp and the underlying CEF infrastructure. This method is safe to call multiple times; it will only

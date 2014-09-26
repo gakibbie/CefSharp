@@ -46,7 +46,8 @@ namespace CefSharp
 
                 if (cefHost != nullptr)
                 {
-                    return StringUtils::ToClr(cefHost->GetDevToolsURL(true));
+					return String::Empty;
+                    //return StringUtils::ToClr(cefHost->GetDevToolsURL(true));
                 }
                 else
                 {
@@ -65,8 +66,7 @@ namespace CefSharp
         {
             HWND hwnd = HWND();
             CefWindowInfo window;
-            window.SetAsOffScreen(hwnd);
-            window.SetTransparentPainting(true);
+            window.SetAsWindowless(hwnd, true);
             CefString addressNative = StringUtils::ToNative("about:blank");
 
             if (!CefBrowserHost::CreateBrowser(window, _renderClientAdapter.get(), addressNative,
