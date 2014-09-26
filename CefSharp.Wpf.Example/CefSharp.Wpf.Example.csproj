@@ -177,4 +177,10 @@
   </Target>
   <Import Project="$(SolutionDir)\CefSharp.props" />
   <Import Project="$(SolutionDir)\CefSharp.Native.props" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y $(SolutionDir)Lib\Cef2062\*.pak
+xcopy /y $(SolutionDir)Lib\Cef2062\locales\*.pak locales\ /s /e
+xcopy /y $(SolutionDir)Lib\Cef2062\$(PlatformName)\icudtl.dat
+xcopy /y $(SolutionDir)Lib\Cef2062\$(PlatformName)\libcef.dll</PostBuildEvent>
+  </PropertyGroup>
 </Project>
