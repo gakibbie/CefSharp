@@ -56,7 +56,7 @@ namespace CefSharp
                     handler->OnBeforeClose(_browserControl);
                 }
 
-                //_cefBrowser = nullptr;
+                _cefBrowser = nullptr;
             }
         }
 
@@ -262,7 +262,7 @@ namespace CefSharp
             }
             else if (requestResponse->Action == ResponseAction::Respond)
             {
-                //CefRefPtr<StreamAdapter> adapter = new StreamAdapter(requestResponse->ResponseStream);
+                CefRefPtr<StreamAdapter> adapter = new StreamAdapter(requestResponse->ResponseStream);
 
                 throw gcnew NotImplementedException("Respond is not yet supported.");
 
