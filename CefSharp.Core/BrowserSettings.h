@@ -274,8 +274,8 @@ namespace CefSharp
 
         property Nullable<bool>^ AcceleratedCompositingDisabled
         {
-            Nullable<bool>^ get() { return CefStateToDisabledSetting(_browserSettings->accelerated_compositing); }
-            void set(Nullable<bool>^ value) { _browserSettings->accelerated_compositing = CefStateFromDisabledSetting(value); }
+            Nullable<bool>^ get() { return nullptr; }
+            void set(Nullable<bool>^ value) { }
         }
     };
 }

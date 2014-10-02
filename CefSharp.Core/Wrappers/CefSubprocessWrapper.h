@@ -28,7 +28,6 @@ namespace CefSharp
 
         ~CefBrowserUnmanagedWrapper()
         {
-            _cefBrowser = nullptr;
             EvaluateScriptResult = nullptr;
             EvaluateScriptExceptionMessage = nullptr;
             

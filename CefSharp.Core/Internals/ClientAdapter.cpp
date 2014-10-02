@@ -55,8 +55,6 @@ namespace CefSharp
                 {
                     handler->OnBeforeClose(_browserControl);
                 }
-
-                _cefBrowser = nullptr;
             }
         }
 
